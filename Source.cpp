@@ -299,11 +299,11 @@ int quizzing1(vector<Drug>& drugs, int dI, int& attempts,
 		}
 		++attempts;
 		if (nOfCorrectAnswers == totalN) {
-			cout << "you got all of them!! ~ sending virtual kisses\n\n";
+			cout << "you got all of them!! ~ \n\n";
 			break;
 		}
 		if (tries == 0) {
-			cout << "oof you outta tries, practice some more loveeee" << endl;
+			cout << "oof you outta tries, practice some more" << endl;
 		}
 	}
 	return nOfCorrectAnswers;
@@ -364,13 +364,13 @@ void quiz2(vector<Drug>& drugs) {}
 // quiz
 void quiz(vector<Drug>& drugs) {
 	int option;
-	cout << "How you want to study today love?" << endl;
+	cout << "How you want to study today?" << endl;
 	cout << "1. Flashcard Mode" << endl;
 	cout << "2. Fill-in Mode" << endl;
 	cin >> option;
 
 	while (option != 1 && option != 2) {
-		cout << "Blerg- that's not one of the options cupcake" << endl;
+		cout << "Blerg- that's not one of the options" << endl;
 		cout << "Gimme another one------> ";
 		cin >> option;
 	}
